@@ -1,0 +1,67 @@
+.sidebar{
+    position: fixed;
+    width: 310px;
+    height: 100%;
+    background: #fff;
+    margin-left: 90px;
+    padding: 0 30px;
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sidebar__header h2{
+    font-size: 27px;
+    font-weight: bold;
+}
+.sidebar__header button{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list__of__items{
+    margin-top: 40px;
+}
+
+.sidebar__link{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 0;
+    border: none;
+    background: none;
+}
+
+.sidebar__link svg:first-child{
+    margin-right: 12px;
+}
+
+.sidebar__link .heading, .sidebar__link .heading > div{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__link .heading{
+    justify-content: space-between;
+}
+
+.sidebar__link .list__of__projects a{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    color: var(--color-light);
+}
+
+.sidebar__link .list__of__projects a:first-child{
+    margin-top: 15px;
+}

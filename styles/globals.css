@@ -1,0 +1,62 @@
+html{
+  --color: #121c42;
+  --color-light: #121c4299;
+  --color-primary: #004CE5;
+
+  --background-light: #f7fafb;
+
+  --border: #d5e3ec;
+
+  --nav-icon-color: #a8c6f6;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-light);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: interregular;
+}
+
+/* ===== IMPORTATION DE POLICE */
+
+font-face {
+  font-family: 'interbold';
+  src: url('./../public/fonts/inter-bold-webfont.woff2') format('woff2'),
+       url('./../public/fonts/inter-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'intermedium';
+  src: url('./../public/fonts/inter-medium-webfont.woff2') format('woff2'),
+       url('./../public/fonts/inter-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'interregular';
+  src: url('./../public/fonts/inter-regular-webfont.woff2') format('woff2'),
+       url('./../public/fonts/inter-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'intersemi_bold';
+  src: url('./../public/fonts/inter-semibold-webfont.woff2') format('woff2'),
+       url('./../public/fonts/inter-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

@@ -1,0 +1,50 @@
+.header{
+    margin-left: 400px;
+    padding: 0 50px;
+    padding-top: 50px;
+}
+
+.header, .header div{
+    display: flex;
+    align-items: center;
+}
+
+.period__of__days{
+    margin: 0 100px;
+}
+.period__of__days p{
+    margin-left: 25px;
+}
+
+
+.header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.searchbar__container{
+    position: relative;
+    flex: 1;
+}
+
+.searchbar__container svg{
+    position: absolute;
+    left: 20px;
+    opacity: 0.5;
+}
+.searchbar__container input{
+    font-size: 16px;
+    padding: 15px 20px;
+    padding-left: 58px;
+    border-radius: 9999px;
+    width: 100%;
+    background: #e4e4e454;
+    border: none;
+}
+
+.user__data p.username{
+    margin: 0 5px 0 12px;
+}

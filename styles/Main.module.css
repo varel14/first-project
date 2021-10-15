@@ -1,0 +1,125 @@
+.main{
+    margin-left: 400px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.toolbar, .toolbar div{
+    display: flex;
+    align-items: center;
+}
+.toolbar{
+    justify-content: space-between;
+}
+.toolbar .users img, .toolbar .restant__user{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    position: relative;
+}
+.toolbar .restant__user{
+    background-color: #efefef;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px solid#ccc;
+}
+
+.toolbar button{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+    padding: 10px 20px;
+    font-size: 15.5px;
+}
+.toolbar button svg{
+    margin-right: 12px;
+}
+
+.indicator__item{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.indicator__item span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* ===== COLUMNS ===== */
+
+.columns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.column__item{
+    width: 30%;
+    max-width: 400px;
+}
+
+.column__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column__header .title{
+    font-size: 23px;
+}
+
+.column__header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    font-size: 15px;
+    border: none;
+    background: #e4e4e469;
+    border-radius: 5px;
+}
+.column__header button svg{
+    margin-right: 10px;
+}
+
+/* ==== PROJECTS ITEM ===== */
+
+.project__item{
+    background: #fff;
+    padding: 20px 30px;
+    padding-top: 10px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(204, 204, 204, 0.294);
+}
+.project__item .header, .project__item .header div{
+    display: flex;
+    align-items: center;
+}
+.project__item .header{
+    justify-content: space-between;
+}
+.project__item .header svg{
+    margin-right: 5px;
+}
+.project__item .header p{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.project__item .description{
+    margin-bottom: 20px;
+}
+.project__item .users{
+    margin-top: 20px;
+}
